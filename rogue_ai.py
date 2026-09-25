@@ -21,13 +21,12 @@ else:
 
 batteryPercentage = int(input("Enter Battery Percentage: "))
 
-if batteryPercentage >= 21:
-  print ("Power Normal")
 if batteryPercentage <= 20:
-    print ("LOW POWER")
+  print ("POWER LOW")
+if batteryPercentage >= 21:
+    print ("NORMAL POWER")
 else:
     print ("Your in danger power is low.")
-
 
 # LEVEL 3 - SECURITY DIAGNOSTIC
 # Ask for the security status and make the required decision.

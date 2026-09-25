@@ -15,9 +15,9 @@ Complete these predictions before running the program.
 
 | Test | Temperature | Battery | Security | Predicted messages | Actual messages | Match? |
 |---|---:|---:|---|---|---|---|
-| A | 99 | 19 | safe | safe |  |  |
-| B | 100 | 20 | danger | danger |  |  |
-| C | 101 | 21 | DANGER | DANGER |  |  |
+| A | 99 | 19 | safe | safe |System temperature is safe   |yes  |
+| B | 100 | 20 | danger | danger |LOW Power  | yes |
+| C | 101 | 21 | DANGER | DANGER | DANGER |yes  |
 
 ## AI-Assisted Tests
 
@@ -25,14 +25,14 @@ Ask the course AI assistant for one test at a time. Predict before running.
 
 | Test | Temperature | Battery | Security | Team prediction | Actual result | What we learned |
 |---|---:|---:|---|---|---|---|
-| 1 |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |
-| 3 |  |  |  |  |  |  |
+| 1 |102|88|DANGER|its going to shut down|shut down required|all bad means shutdown
+| 2 | 80|21|Safe|its fine|SAFE| all goodmeans safe
+| 3 | 101 |19|danger|short safe| shutdown required| half and half is safe but keep an eye on it 
 
 ## Random AI Safety Scenario
 
-- Random temperature: 94- "System temperature is within safe limits. Proceeding to the next diagnostic level."
-- Random battery:50- Power normal
+- Random temperature: 102- overheatting
+- Random battery:80- Power normal
 - Random security status: Safe- system secured
 - Copilot's simulated program results: Yes
 - Did the logic pass this scenario? Yes
@@ -44,12 +44,12 @@ Ask the course AI assistant for one test at a time. Predict before running.
 
 ## Instructor Mystery Test
 
-- Temperature:
-- Battery:
-- Security:
-- Our prediction:
-- Actual result:
-- Did it match? Explain:
+- Temperature:100
+- Battery:20
+- Security: danger
+- Our prediction: High temperature warning, insert battery, and shut down
+- Actual result: It outputted all comands 
+- Did it match? Explain: Yes, it followed the print comands for the specific levels that were needed. 
 
 ## Debugging Record
 
