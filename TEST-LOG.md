@@ -2,12 +2,12 @@
 
 ## Team Information
 
-- Team name:
-- Team members:
-- Driver:
-- Logic Checker:
-- Test Engineer:
-- Reporter:
+- Team name: N/A
+- Team members: Ang, Ayden, PJ
+- Driver: PJ
+- Logic Checker: Ang
+- Test Engineer:Ayden
+- Reporter:N/a
 
 ## Required Boundary Predictions
 
@@ -15,9 +15,9 @@ Complete these predictions before running the program.
 
 | Test | Temperature | Battery | Security | Predicted messages | Actual messages | Match? |
 |---|---:|---:|---|---|---|---|
-| A | 99 | 19 | safe |  |  |  |
-| B | 100 | 20 | danger |  |  |  |
-| C | 101 | 21 | DANGER |  |  |  |
+| A | 99 | 19 | safe | safe |  |  |
+| B | 100 | 20 | danger | danger |  |  |
+| C | 101 | 21 | DANGER | DANGER |  |  |
 
 ## AI-Assisted Tests
 
@@ -31,16 +31,16 @@ Ask the course AI assistant for one test at a time. Predict before running.
 
 ## Random AI Safety Scenario
 
-- Random temperature:
-- Random battery:
-- Random security status:
-- Copilot's simulated program results:
-- Did the logic pass this scenario?
-- Temperature safety advice:
-- Power safety advice:
-- Privacy/security advice:
+- Random temperature: 94- "System temperature is within safe limits. Proceeding to the next diagnostic level."
+- Random battery:50- Power normal
+- Random security status: Safe- system secured
+- Copilot's simulated program results: Yes
+- Did the logic pass this scenario? Yes
+- Temperature safety advice: Stay off phone for a bit. 
+- Power safety advice: Enter charger plug. 
+- Privacy/security advice: Shutdown required 
 - Funny scenario message:
-- What we learned:
+- What we learned: How to insert multiple messages with different names to adjust 1 subject. 
 
 ## Instructor Mystery Test
 
@@ -53,7 +53,7 @@ Ask the course AI assistant for one test at a time. Predict before running.
 
 ## Debugging Record
 
-- What did not work or almost caused a problem?
-- What hint did the instructor or AI assistant provide?
-- What change did the team make?
-- Why did that change work?
+- What did not work or almost caused a problem? Our if else statements gave us a little bit of trouble
+- What hint did the instructor or AI assistant provide? It ran all the programs 
+- What change did the team make? If anything came out incorrect we checked and fixed
+- Why did that change work? It worked because everything was right at the end and there was no error message at the end. 

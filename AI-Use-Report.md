@@ -2,16 +2,16 @@
 
 ## Team Information
 
-- Team name:
-- Team members:
-- Date:
+- Team name: Team
+- Team members:Ang, Ayden, Pj
+- Date:9/25/26
 
 ## AI Use
 
 Did your team use an AI tool?
 
 - [ ] Yes
-- [ ] No
+- [*] No
 
 If no, write “No AI tool was used” in the Summary.
 
@@ -41,8 +41,8 @@ Did the AI's guidance match the assignment requirements and the program's actual
 
 Describe one Python decision-making or testing concept the team understands better.
 
-- Response:
+- Response:how to use if and else statements as well as if statements
 
 ## Summary
 
-- Response:
+- Response:No AI tool was used
