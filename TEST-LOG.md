@@ -3,11 +3,11 @@
 ## Team Information
 
 - Team name: N/A
-- Team members: Ang, Ayden, PJ
+- Team members: Ang, Ayden, Arias, PJ
 - Driver: PJ
 - Logic Checker: Ang
-- Test Engineer:Ayden
-- Reporter:N/a
+- Test Engineer: Ayden
+- Reporter: Arias
 
 ## Required Boundary Predictions
 

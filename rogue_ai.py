@@ -1,6 +1,6 @@
 # ============================================================
 # CMP 131 - ROGUE AI EMERGENCY DIAGNOSTIC SYSTEM
-# Team members: Ang, Ayden, PJ
+# Team members: Ang, Ayden, Arias, PJ
 # ============================================================
 print("========================================")
 print("     ROGUE AI DIAGNOSTIC SYSTEM")
